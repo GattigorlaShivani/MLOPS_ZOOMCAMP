@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+s3fs = "*"
+pyarrow = "*"
+fastparquet = "*"
+mlflow = "2.4"
+psycopg2-binary = "*"
+boto3 = "*"
+prefect = "*"
+flask = "*"
+gunicorn = "*"
+scikit-learn = "*"
+tqdm = "*"
+requests = "*"
+joblib = "*"
+psycopg = "*"
+psycopg-binary = "*"
+evidently = "*"
+numpy = "*"
+jupyter = "*"
+matplotlib = "*"
+
+[dev-packages]
+ipykernel = "*"
+pytest = "*"
+pylint = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.10"
